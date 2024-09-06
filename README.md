@@ -11,6 +11,7 @@ so moving it to another directory will not work, pain to fix manually.
  - It's a hack.
  - it will refuse to update in some cases (will let you know)
  - it uses external system command:  `cp`.
+ - relies on `file` command to discriminate between text files to binaries.
  - Exceptions are broad / general     #   @todo #fixme
  - it might get your rabbies.
 
